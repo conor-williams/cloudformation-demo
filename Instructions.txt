@@ -7,7 +7,7 @@
 
 4. Convert the keypair to .ppk format using PuTTYgen.
 
-5. Create an EC2 instance and estimate cost through CloudFormation on the AWS console.
+5. Create an EC2 instance through CloudFormation on the AWS console.
 - cloudformation-demo-main\demo_cf_01\template.yaml
 
 6. Add an SSH access rule to the default security group.
