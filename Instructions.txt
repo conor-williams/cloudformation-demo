@@ -1,6 +1,6 @@
 1. Download PuTTY: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-2. Start Learner Lab and open console.
+2. Start Learner Lab and open AWS console.
 
 3. Create and download a key pair named TU_Dublin in .pem format on the AWS console.
 
