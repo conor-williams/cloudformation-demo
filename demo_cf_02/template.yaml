@@ -3,10 +3,10 @@ Resources:
   TUDublinEC2Instance:
     Type: "AWS::EC2::Instance"
     Properties:
-      AvailabilityZone: eu-west-1a
+      AvailabilityZone: us-east-1a
       InstanceType: t2.micro
       KeyName: TU_Dublin
-      ImageId: ami-0bb3fad3c0286ebd5
+      ImageId: ami-0557a15b87f6559cf
   TUDublinS3Bucket12345:
     Type: "AWS::S3::Bucket"
     Properties: {}
