@@ -4,8 +4,8 @@ Parameters:
     Type: String
     Default: eu-west-1a
     AllowedValues:
-      - eu-west-1a
-      - eu-west-2a
+      - us-east-1a
+      - us-east-1b
   InstanceType:
     Type: String
     Default: t2.micro
@@ -17,10 +17,10 @@ Parameters:
     Default: TU_Dublin
   ImageId:
     Type: String
-    Default: ami-0bb3fad3c0286ebd5
+    Default: ami-0557a15b87f6559cf
     AllowedValues:
-      - ami-0bb3fad3c0286ebd5
-      - ami-0a669382ea0feb73a
+      - ami-0dfcb1ef8550277af
+      - ami-0557a15b87f6559cf
 
 Resources:
   TUDublinEC2Instance:
