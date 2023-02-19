@@ -3,10 +3,10 @@ Resources:
   TUDublinEC2ManagementInstance:
     Type: AWS::EC2::Instance
     Properties:
-      AvailabilityZone: eu-west-1a
+      AvailabilityZone: us-east-1a
       InstanceType: t2.micro
       KeyName: TU_Dublin
-      ImageId: ami-0aef57767f5404a3c
+      ImageId: ami-0557a15b87f6559cf
       SecurityGroups:
         - !Ref ManagementSecurityGroup
       UserData:
