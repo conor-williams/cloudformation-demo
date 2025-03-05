@@ -14,7 +14,7 @@ $ cat lool.txt
 2015/day12/day12.2.c:   printf("broken\n"); exit(0);
 2015/day19/day19.2.c:   printf("broken\n"); exit(0);
 
-	o all <s>day</s>Part 1's for every year working well, except:
+o all <s>day</s>Part 1's for every year working well, except:
 
 -- <s>2022 Day 22.1</s>
 -- 2023 Day 22.1
